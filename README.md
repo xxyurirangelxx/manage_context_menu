@@ -1,3 +1,10 @@
+## LANGUAGES:
+
+#pt-BR
+#en-US
+
+#en-US
+
 ## COMPILATION
 
 to install dependencies:
@@ -38,6 +45,53 @@ python main.py
 ## RUNNING FROM VENV
 
 To run the application:
+```
+.venv\Scripts\python.exe main.py
+```
+
+#pt-BR
+
+## COMPILAÇÃO
+
+para instalar dependências:
+```
+pip install -r requirements.txt
+```
+
+para compilar a aplicação:
+```
+pyinstaller --noconfirm --onefile --windowed --uac-admin --collect-all customtkinter --name "ContextManager" main.py
+```
+
+para executar a aplicação:
+```
+ContextManager.exe
+```
+
+## RODANDO PELO RELEASE
+
+Para rodar pelo release:
+
+para instalar customtkinter: ** ESSENCIAL **
+```
+pip install customtkinter
+```
+
+para executar a aplicação:
+```
+ContextManager.exe
+```
+
+## RODANDO PELO CÓDIGO-FONTE
+
+para executar a aplicação:
+```
+python main.py
+```
+
+## RODANDO PELO VENV
+
+para executar a aplicação:
 ```
 .venv\Scripts\python.exe main.py
 ```
